@@ -1,0 +1,44 @@
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.skewed-header>.header-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  /* tilt the pic */
+    transform:skewY(4deg);
+    
+    transform-origin:top right ;
+    filter: brightness(60%);
+   
+}
+.skewed-header>.skewed-header-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.skewed-header>.skewed-header-wrapper>.skewed-header-content{
+    width: 1000px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.skewed-header>.skewed-header-wrapper>.skewed-header-content>.heading-wrapper{
+    background-color: blue;
+
+    color: crimson;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 2px;
+    width: 175;
+    padding: 22px;
+    text-align: center;
+}

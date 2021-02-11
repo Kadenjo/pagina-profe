@@ -1,0 +1,24 @@
+.btn{
+    background-color: blue;
+    color: #11122b;
+font-size: 1.25rem 2rem;
+padding: 7px 15px;
+border: 2px solid rgb(33, 228, 15);
+border-radius: 5px;
+outline: navajowhite;
+transition: 0.3s;
+
+}
+.centered-btn-wrapper{
+    display: flex;
+    justify-content: center;
+  
+}
+.spacer10{
+    height: 10px;
+    width:100%;
+}
+.btn:active{
+    /* 5px moves to the right and left and 2nd one moves it up n down */
+    box-shadow: 1.8px -4px 50px purple;
+}

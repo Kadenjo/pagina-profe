@@ -1,0 +1,93 @@
+/* styles for the hero section */
+.hero-section {
+    background-image:url(../images/apex-legends-wallpaper-desktop.jpg);
+    padding: 100px;
+    height: 20em;
+    background-attachment: fixed;
+    background-position:center ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.hero-section> .top-heading{
+   padding: 1px 2px;
+    background-color: #11122b;
+color: #cbcbcb;
+width: 140px;
+border-radius: 1px;
+}
+
+.hero-section> .top-heading h1 { 
+color: rgb(213, 213, 223);
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.hero-section> .bottom-heading {
+background-color: rgb(21, 120, 207);
+width: 35px;
+color: rgb(97, 85, 109);
+padding: 1px 20px;
+margin-top: 15px;
+}
+.features-section{
+    height: 1000px;
+    margin-top: -1em;
+background-image: url(../images/087de0e2da2db7014496c757ce1191e1.jpg);
+background-color: black;
+
+background-repeat:no-repeat;
+background-size: cover;
+border-top:10px solid purple;
+color:blueviolet;
+display:flex;
+justify-content: center;
+align-items:top;
+font-family: "ubuntu condensed", sans-serif;
+box-shadow: inset 0px -26px 500px -8px rgba(147, 2, 243, 0.58);
+
+}
+.features-section> .columns-wrapper{
+width: 1000px;
+display: flex;
+justify-content: space-between;
+}
+
+.features-section>.columns-wrapper>.column {
+    padding:20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 1000px;
+    transition: 1s;
+    height: 250px;
+
+    
+}
+.features-section>.columns-wrapper>.column:hover {
+    border-bottom: 5px solid purple;
+}
+.features-section>.columns-wrapper>.column :nth-child(1) {
+    font-size:1em;}
+
+.features-section>.columns-wrapper>.column :nth-child(2) {
+font-size:1.5em;
+font-weight: 900;
+height: 50px;
+transition: 1s;
+}
+
+
+    .features-section>.columns-wrapper>.column :nth-child(2):hover {
+    letter-spacing: 1px;
+    
+    }
+    .features-section>.columns-wrapper>.column :nth-child(3){
+        letter-spacing: 2px;
+
+    }
+/* other words hover */
+    .features-section>.columns-wrapper>.column p:hover { 
+        transition:1s ;
+
+    }
+   

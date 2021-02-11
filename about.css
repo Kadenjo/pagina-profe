@@ -1,0 +1,16 @@
+
+h1{
+    color: blueviolet;
+}
+
+.linkss-wrapper>.navss-link a{
+    color: blueviolet;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/* 2nd image */
+

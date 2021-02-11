@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.big-boii{
+    background-color:rgb(28, 61, 34)
+    
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+/* spuare grid styles-about page */
+
+
+/* helper-styles */
+.spacer60{
+    height: 100px;
+    width: 100%;
+}
+.big-boii>.page-container>.content-wrapper h2{
+    color: blue;
+}
+.big-boii h2, h1, h3{
+    color: blue;
+}
+.anchor-link{
+    outline: none;
+    text-decoration: none;
+    
+  
+}
+.anchor-link ::before {
+    content: "";
+}
+.anchor-link ::after{
+    font-family: "font awesome 5 free";
+    content: "\f0c1";
+    font-weight: 900;
+}
